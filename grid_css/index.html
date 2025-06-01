@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid css</title>
+    <link rel="logo" href="chessboard.png">
+
+<style>
+    .container{
+        height: 400px;
+        width: 400px;
+        display: grid;
+        grid-template-rows: 70px 70px 70px 70px 70px 70px 70px 70px;
+        grid-template-columns: 70px 70px 70px 70px 70px 70px 70px 70px;
+        border: 5px solid black;
+
+    }
+    .item1:nth-of-type(even)
+    {
+        background-color: rgb(217, 207, 207);
+       
+
+    }
+    .item1:nth-of-type(odd){
+        background-color: rgb(41, 39, 39);
+    }
+    .item2:nth-of-type(odd){
+        background-color: rgb(217, 207, 207);
+
+    }
+    .item2:nth-of-type(even){
+        background-color: rgb(41, 39, 39);
+    }
+    .item3:nth-of-type(odd){
+        background-color: rgb(41, 39, 39);
+    }
+    .item3:nth-of-type(even){
+        background-color: rgb(217, 207, 207);
+    }
+    .item4:nth-of-type(odd){
+        background-color: rgb(217, 207, 207);
+    }
+    .item4:nth-of-type(even){
+        background-color: rgb(41, 39, 39);
+    }
+    .item5:nth-of-type(odd){
+        background-color: rgb(41, 39, 39);
+    }
+    .item5:nth-of-type(even){
+        background-color: rgb(217, 207, 207);
+    }
+    .item6:nth-of-type(odd){
+        background-color: rgb(217, 207, 207);
+    }
+    .item6:nth-of-type(even){
+        background-color: rgb(41, 39, 39);
+    }
+    .item7:nth-of-type(odd){
+        background-color: rgb(41, 39, 39);
+    }
+    .item7:nth-of-type(even){
+        background-color: rgb(217, 207, 207);
+    }
+    .item8:nth-of-type(odd){
+        background-color: rgb(217, 207, 207);
+    }
+    .item8:nth-of-type(even){
+        background-color: rgb(41, 39, 39);
+    }
+    .item1{
+    
+            display: flex; /* Enables flexbox */
+            align-items: center; /* Centers content vertically */
+            justify-content: center; /* Centers content horizontally */
+            font-size: 40px; /* Increase size of chess pieces */
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+        }
+    
+        .item2{
+            display: flex; /* Enables flexbox */
+            align-items: center; /* Centers content vertically */
+            justify-content: center; /* Centers content horizontally */
+            font-size: 40px; /* Increase size of chess pieces */
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+           
+        }
+        .item7{
+            display: flex; /* Enables flexbox */
+            align-items: center; /* Centers content vertically */
+            justify-content: center; /* Centers content horizontally */
+            font-size: 40px; /* Increase size of chess pieces */
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+
+        }
+        .item8{
+            display: flex; /* Enables flexbox */
+            align-items: center; /* Centers content vertically */
+            justify-content: center; /* Centers content horizontally */
+            font-size: 40px; /* Increase size of chess pieces */
+            font-weight: bold;
+            color: black;
+            cursor: pointer;
+        }
+        .item1:hover{
+            text-transform: scale(1.2);
+            cursor: pointer;
+
+    
+        }
+        .item2:hover{
+            text-transform: scale(1.2);
+            cursor: pointer;
+        }
+        .item7:hover{
+            text-transform: scale(1.2);
+            cursor: pointer;
+        }
+        .item8:hover{
+            text-transform: scale(1.2);
+            cursor: pointer;
+
+            
+        }
+    
+</style>
+</head>
+<body>
+    <center>
+    <div class="container">
+        <div class="item1 item">&#9820;</div><div class="item1 item">&#9822;</div><div class="item1 item">&#9821;</div><div class="item1 item">&#9819;</div><div class="item1 item">&#9818;</div><div class="item1 item">&#9821;</div><div class="item1 item">&#9822;</div><div class="item1 item">&#9820;</div>
+        <div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div><div class="item2 item">&#9823;</div>
+        <div class="item3 item">1</div><div class="item3 item">2</div><div class="item3 item">3</div><div class="item3 item">4</div><div class="item3 item">5</div><div class="item3 item">6</div><div class="item3 item">7</div><div class="item3 item">8</div>
+        <div class="item4 item">1</div><div class="item4 item">2</div><div class="item4 item">3</div><div class="item4 item">4</div><div class="item4 item">5</div><div class="item4 item">6</div><div class="item4 item">7</div><div class="item item4">8</div>
+        <div class="item5 item">1</div><div class="item5 item">2</div><div class="item5 item">3</div><div class="item5 item">4</div><div class="item5 item">5</div><div class="item5 item">6</div><div class="item5 item">7</div><div class="item5 item">8</div>
+        <div class="item6 item">1</div><div class="item6 item">2</div><div class="item6 item">3</div><div class="item6 item">4</div><div class="item6 item">5</div><div class="item6 item">6</div><div class="item6 item">7</div><div class="item6 item">8</div>
+        <div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div><div class="item7 item">&#9823;</div>
+        <div class="item8 item">&#9820;</div><div class="item8 item">&#9822;</div><div class="item8 item">&#9821;</div><div class="item8 item">&#9819;</div><div class="item8 item">&#9818;</div><div class="item8 item">&#9821;</div><div class="item8 item">&#9822;</div><div class="item8 item">&#9820;</div>
+    
+    </center>
+        
+        
+        
+        
+        
+        
+<script src="script.js"></script>
+    
+</body>
+</html>
