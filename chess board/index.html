@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <link rel="icon" href="chessboard.png">
+    <style>
+        .main-div {
+            height: 500px;
+            width: 500px;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(8, 1fr);
+            grid-template-rows: repeat(8, 1fr);
+            background-color: rgb(92, 92, 104);
+            margin-top: 100px;
+        }
+        .main-div div {
+            width: 60px;
+            height: 60px;
+            
+        }
+        /* Creating the chessboard pattern */
+        .main-div div:nth-child(even) {
+            background-color: black;
+        }
+        .main-div div:nth-child(odd) {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <center>
+    <div class="main-div">
+        <!-- 64 divs for an 8x8 chessboard -->
+        <div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div>
+        <div style="background-color:black"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color:black"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div>
+        <div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div>
+        <div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div>
+        <div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div>
+        <div style="background-color:black"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div>
+        <div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div><div style="background-color:rgb(166, 151, 151)"></div><div></div>
+        <div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div><div style="background-color:rgb(166, 151, 151)"></div><div style="background-color: black;"></div> <div style="background-color:rgb(166, 151, 151)"></div>
+    </div>
+    </center>
+</body>
+</html>
